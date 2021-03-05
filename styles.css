@@ -76,9 +76,6 @@ border-bottom::after {
   outline: none;
 }
 
-.btn {
-  border-radius: 150px;
-}
 
 /* button.btn.btn-success.btn-rounded {
   position: absolute;
@@ -97,6 +94,11 @@ button.btn.btn-success.btn-rounded {
   right: 415px;
   top: -1px;
   left: -106px;
+  border-radius: 150px;
+}
+
+button.btn.btn-success {
+  border-radius: 150px;
 }
 
 .row-content {
@@ -122,5 +124,15 @@ img {
 
 button.btn.btn-primary {
   margin-top: 10rem;
+  border-radius: 150px;
+
+}
+
+/*GOOGLE MAPS */
+
+#map {
+  margin-top: 5.5rem;
+  height: 33rem;
+  width: 100%;
 
 }
