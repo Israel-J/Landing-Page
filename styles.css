@@ -31,6 +31,18 @@ body {
   background: black;
 }
 
+.header4 {
+  background: rgb(238, 238, 238);
+  height: 45rem;
+  width: 100%;
+}
+
+.header5 {
+  height: 33rem;
+  position: relative;
+  background: black;
+}
+
 .overlay-image {
   position: absolute;
   bottom: 0;
@@ -40,6 +52,16 @@ body {
   background-position: center;
   background-size: cover;
   opacity: 0.4;
+}
+
+.overlay-image2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
 }
 
 .caption {
@@ -75,7 +97,6 @@ border-bottom::after {
   height: 47px;
   outline: none;
 }
-
 
 /* button.btn.btn-success.btn-rounded {
   position: absolute;
@@ -125,7 +146,6 @@ img {
 button.btn.btn-primary {
   margin-top: 10rem;
   border-radius: 150px;
-
 }
 
 /*GOOGLE MAPS */
@@ -134,5 +154,9 @@ button.btn.btn-primary {
   margin-top: 5.5rem;
   height: 33rem;
   width: 100%;
-
 }
+
+.navbar-brand img{
+  width: 100px;
+}
+
