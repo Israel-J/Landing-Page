@@ -41,7 +41,7 @@ $(".navbar a").on("click", function (e) {
 // Changes NAVBAR COLOR WHEN SCROLLING DOWN
 $(window).scroll(function () {
   var scroll = $(window).scrollTop();
-  if (scroll < 600) {
+  if (scroll < 150) {
     $(".fixed-top").css("background", "transparent");
   } else {
     $(".fixed-top").css("background", "black");
