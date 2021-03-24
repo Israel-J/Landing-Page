@@ -47,3 +47,10 @@ $(window).scroll(function () {
     $(".fixed-top").css("background", "black");
   }
 });
+
+//Alerts for the sub button
+document.getElementById("subscribe").addEventListener("click", function() {
+  alert("Thank You For Subscribing!");
+
+});
+  
